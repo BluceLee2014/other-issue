@@ -1,0 +1,14 @@
+const routes = [
+    {
+        ath:'/books/:strId/:serialNumType',
+        component:MBooks,
+
+    }
+]
+
+const gotoBook = (strId)=>{
+  router.push(`/books/${strId}/INIT`)
+}
+
+浏览器错误提示
+[Vue Router warn]: No match found for location with path "/books/xxx/INIT"
